@@ -1,0 +1,28 @@
+body {
+    background-color: white;
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main {
+    background-color: rgb(104, 165, 251);
+    padding: 20px;
+}
+
+#number1,
+#number2 {
+    width: 400px;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+    border-radius: 17px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    padding-left: 10px;
+}
