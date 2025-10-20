@@ -10,19 +10,80 @@ body {
 }
 
 .main {
-    background-color: rgb(104, 165, 251);
+    background-color: rgb(229, 234, 239);
     padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 3px 3px rgb(172, 172, 172);
 }
 
 #number1,
 #number2 {
-    width: 400px;
+    width: 200px;
     height: 30px;
     margin-bottom: 10px;
-    background-color: aliceblue;
+    background-color: white;
     border-radius: 17px;
     border-style: solid;
     border-width: 1px;
-    border-color: gray;
+    border-color: lightgray;
     padding-left: 10px;
+    font-size: 20px;
+}
+
+input:focus,
+select:focus,
+button:focus,
+textarea:focus {
+    outline: none;
+}
+
+#dropdown {
+    cursor: pointer;
+    width: 50%;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: rgb(199, 230, 251);
+    border-radius: 17px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+
+#calculate {
+    cursor: pointer;
+    width: 110px;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: rgb(199, 230, 251);
+    border-radius: 17px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+#calculate:hover {
+    background-color: rgb(205, 231, 248);
+}
+
+#calculate:active {
+    background-color: rgb(215, 235, 248);
+}
+
+#display {
+    width: 200px;
+    height: 50px;
+    margin-bottom: 0px;
+    background-color: white;
+    border-radius: 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    padding-left: 10px;
+    font-size: 20px;
+    resize: none
 }
