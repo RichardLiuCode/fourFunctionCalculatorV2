@@ -16,6 +16,15 @@ body {
     box-shadow: 0 0 3px 3px rgb(172, 172, 172);
 }
 
+#title {
+    color: rgb(74, 74, 74);
+    text-align: center;
+    margin-top: 0px;
+    padding: 0px;
+    font-size: 18px;
+    font-family: arial;
+}
+
 #number1,
 #number2 {
     width: 200px;
